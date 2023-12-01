@@ -1,0 +1,50 @@
+#! /usr/bin/env python3
+
+import argparse
+import signal
+import sys
+from pyfiglet import figlet_format
+from utils import colors
+from LoLApp import LoLApp, get_apps, process_markdown_content
+
+LOLAPP_URL = "https://vedikabang.github.io/LoLApp/"
+
+def list_applications():
+    apps = get_apps()
+    for app in apps:
+        print(app)
+
+def givelink(name):
+    apps = get_apps()
+    # Convert the name to lowercase and perform a case-insensitive comparison
+    matched_name = next((app_name for app_name in apps if app_name.lower() == name.lower()), None)
+
+    if matched_name:
+        url = colors(LOLAPP_URL + "{}".format(apps[matched_name]), 94)
+        print("--> {name} \t{dash}>\t {link}".format(name=colors(matched_name, 93, True), dash=colors("-"*20, 93), link=url))
+    else:
+        print(colors("[!] Couldn't find any application with name {}".format(name), 91))
+        sys.exit(0)
+
+def signal_handler(signal, frame):
+    print(colors('\n\nYou pressed Ctrl+C!', 91))
+    sys.exit(0)
+
+def main():
+    parser = argparse.ArgumentParser(description="LoLApp Command Line Interface")
+    group = parser.add_mutually_exclusive_group(required=True)
+    group.add_argument("-a", "--app", help="Search information on a specific application in LoLApp")
+    group.add_argument("-ls", "--list", action="store_true", help="List all available applications in LoLApp")
+
+    args = parser.parse_args()
+
+    if args.app:
+        LoLApp(args.app)
+    elif args.list:
+        list_applications()
+
+if __name__ == "__main__":
+    signal.signal(signal.SIGINT, signal_handler)
+    print(colors(figlet_format('#LoLApp', font='big'), 92))
+    print("\n")
+    main()

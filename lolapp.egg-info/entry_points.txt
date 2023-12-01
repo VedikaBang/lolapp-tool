@@ -1,0 +1,2 @@
+[console_scripts]
+lolapp = lolapp.lolapp:main

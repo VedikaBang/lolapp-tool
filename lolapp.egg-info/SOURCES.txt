@@ -1,0 +1,6 @@
+setup.py
+lolapp.egg-info/PKG-INFO
+lolapp.egg-info/SOURCES.txt
+lolapp.egg-info/dependency_links.txt
+lolapp.egg-info/entry_points.txt
+lolapp.egg-info/top_level.txt

@@ -2,7 +2,7 @@
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/mzfr/liffy/graphs/commit-activity)
 
 
-<h1 align="center">gtfo</h1>
+<h1 align="center">LoLApp</h1>
 
 ![gtfo in action](Images/gtfo.png)
 
@@ -14,39 +14,15 @@
   <a href="https://github.com/mzfr/gtfo#gallery">Gallery</a>
 </p>
 
-gtfo is a tool purely written in python3 to search binaries on [GTFOBins](https://gtfobins.github.io/) and [LOLBAS](https://lolbas-project.github.io/).
-
+LoLApp is a tool purely written in python3 to generate IoCs and Detection rules for 
 ### Features
 
-The only feature of this tool is to give you the ability to search gtfobins and lolbas from terminal.
+The only feature of this tool is to give you the ability to generate IoCs from terminal.
 
-oh and it also make you stick to your terminal. You won't have to face the bright light of your browser when you find out that vim is marked as SUID on the system you just got reverse shell on but don't know how to exploit that.
-
-### Gallery
-
-* __Searching GTFOBins__
-
-![](Images/bin.png)
-
-* __Searching lolbas__
-
-![](Images/exe.png)
-
-* __List exe__
-
-![](Images/list-exe.png)
-
-* __List binaries__
-
-![](Images/list-bins.png)
-
-* __Errors__ :smile:
-
-![](Images/errors.png)
-
+You can always import it as per your convinience to your SIEM or rather generate detection rules and update them as per your definiton template.
 ### Contribution
 
-* Report a bug
+* Add new appliactions 
 * Fix something and open a pull request
 * There are some `TODO` in the project. Help me complete those
 
