@@ -5,3 +5,4 @@ lxml
 requests_cache
 tabulate
 pyfiglet
+markdown 

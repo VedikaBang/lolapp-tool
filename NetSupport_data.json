@@ -1,0 +1,16 @@
+{
+    "Title": "NetSupport",
+    "Tags": [
+        "Description",
+        "IoCs",
+        "TTPs",
+        "Detection Rules"
+    ],
+    "Sigma Rule Links": [
+        "https://raw.githubusercontent.com/VedikaBang/LoLApp/main/detection_rules/netsupport/0.yaml",
+        "https://raw.githubusercontent.com/VedikaBang/LoLApp/main/detection_rules/netsupport/1.yaml",
+        "https://raw.githubusercontent.com/VedikaBang/LoLApp/main/detection_rules/netsupport/2.yaml",
+        "https://raw.githubusercontent.com/VedikaBang/LoLApp/main/detection_rules/netsupport/3.yaml",
+        "https://raw.githubusercontent.com/VedikaBang/LoLApp/main/detection_rules/netsupport/4.yaml"
+    ]
+}
