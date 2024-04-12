@@ -1,29 +1,27 @@
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-
-
-
-<h1 align="center">LoLApp</h1>
-
-![LoLApp in action](Images/gtfo.png)
-
-<p align="center">
-  <a href="https://github.com/mzfr/gtfo/wiki">gtfo Wiki</a> •
-  
-</p>
+<h1 align="center">Living off The Land Attack: Appication IoC Generator</h1>
 
 LoLApp is a tool purely written in python3 to generate IoCs and Detection rules for RATs.
 ### Features
 
-The only feature of this tool is to give you the ability to generate IoCs from terminal.
+The only feature of this tool is to give you the ability to generate IoCs and Detection rules for Dual-use tools.
 
 You can always import it as per your convinience to your SIEM or rather generate detection rules and update them as per your definiton template.
+
 ### Contribution
 
 * Add new appliactions 
 * Fix something and open a pull request
-* There are some `TODO` in the project. Help me complete those
+* There are some `TODO` in the project. always open to new ideas
 
-In any case feel free to open an issue
+### Demo
+
+<video width="700" height="350" controls>
+  <source src="/vp1.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
+In any case feel free to open an issue! 
 
 ## Credits
 
