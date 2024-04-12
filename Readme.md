@@ -1,17 +1,18 @@
-<h1 align="center">Living off The Land Attack: Appication IoC Generator</h1>
+<h1 align="center">Living off The Land Attack: Application IoC Generator</h1>
 
-LoLApp is a tool purely written in python3 to generate IoCs and Detection rules for RATs.
+LoLApp is a Python3 tool designed to generate Indicators of Compromise (IoCs) and Detection rules specifically for Remote Access Tools (RATs) used in 'Living off the Land' (LotL) attacks.
+
 ### Features
 
-The only feature of this tool is to give you the ability to generate IoCs and Detection rules for Dual-use tools.
-
-You can always import it as per your convinience to your SIEM or rather generate detection rules and update them as per your definiton template.
+The primary functionality of LoLApp is to enable the generation of IoCs and Detection rules for dual-use tools. It is designed for flexibility, allowing users to easily integrate these outputs into their Security Information and Event Management (SIEM) systems or to update their detection rules according to custom templates.
 
 ### Contribution
 
-* Add new appliactions 
-* Fix something and open a pull request
-* There are some `TODO` in the project. always open to new ideas
+We welcome contributions to improve LoLApp:
+
+* **Add New Applications**: Extend the tool’s capabilities by adding new applications.
+* **Bug Fixes and Enhancements**: Notice something off? Open a pull request with your fixes.
+* **Ideas and Todos**: The project has several `TODO` items. We are always open to new ideas and contributions.
 
 ### Demo
 
@@ -20,11 +21,6 @@ You can always import it as per your convinience to your SIEM or rather generate
   Your browser does not support the video tag.
 </video>
 
+We encourage community feedback. If you encounter any issues or have suggestions, please feel free to open an issue!
 
-In any case feel free to open an issue! 
 
-## Credits
-
-Thanks to [norbemi](https://twitter.com/norbemi) and [cyrus_and](https://twitter.com/cyrus_and) for creating [GTFOBins](https://gtfobins.github.io/) without that this project won't be in existence.
-
-Also thanks to all the creators of [LOLBAS](https://lolbas-project.github.io/#)
