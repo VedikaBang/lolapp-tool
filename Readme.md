@@ -16,10 +16,8 @@ We welcome contributions to improve LoLApp:
 
 ### Demo
 
-<video width="700" height="350" controls>
-  <source src="/vp1.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+![LoLApp Demo](https://github.com/VedikaBang/lolapp-tool/blob/master/giif.gif?raw=true)
+
 
 We encourage community feedback. If you encounter any issues or have suggestions, please feel free to open an issue!
 
