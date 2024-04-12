@@ -17,7 +17,7 @@ We welcome contributions to improve LoLApp:
 ### Demo
 
 ![LoLApp Demo](https://github.com/VedikaBang/lolapp-tool/blob/master/giif.gif?raw=true)
-
+[![asciicast](https://asciinema.org/a/113463.png)](https://asciinema.org/a/113463)
 
 We encourage community feedback. If you encounter any issues or have suggestions, please feel free to open an issue!
 
